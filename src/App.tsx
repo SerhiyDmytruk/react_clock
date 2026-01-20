@@ -13,8 +13,6 @@ export class App extends React.Component<{}, State> {
     clockName: 'Clock-0',
   };
 
-  timerId = 0;
-
   timerIdName = 0;
 
   getRandomName(): string {
